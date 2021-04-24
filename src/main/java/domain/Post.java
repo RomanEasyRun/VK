@@ -15,7 +15,11 @@ public class Post {
     private boolean canEdit;
     private boolean isPinned;
     private boolean isFavorite;
-
+    private int ownerId;
+    private int fromId;
+    private int replyOwnerId;
+    private int postponedId;
+    private boolean markedAsAds;
 
 
 }
