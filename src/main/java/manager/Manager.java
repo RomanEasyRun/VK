@@ -4,14 +4,14 @@ package manager;
 import domain.Post;
 
 public class Manager {
-    private Manager manager;
+    private Manager[] managers;
 
-    public void deleteManager() {
+  public void deleteManager() {
 
     }
 
-    public String searchManager() {
-        Post[] search;
+  public Post[] searchManager() {
+
         return null;
     }
 }
