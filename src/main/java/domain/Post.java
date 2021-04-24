@@ -20,6 +20,12 @@ public class Post {
     private int replyOwnerId;
     private int postponedId;
     private boolean markedAsAds;
+    private Geo geo;
+    private Copyright copyright;
+    private CommentsInfo commentsInfo;
+    private LikesInfo likesInfo;
+    private RepostsInfo repostsInfo;
 
+    // + getters/setters
 
 }
